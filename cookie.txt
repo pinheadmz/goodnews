@@ -8,3 +8,9 @@ www.weeklystandard.com	FALSE	/	FALSE	0	X-Mapping-oompknoc	CAB5E112778D30F2CF7674
 .washingtonpost.com	TRUE	/	FALSE	0	client_region	0
 .washingtonpost.com	TRUE	/	FALSE	0	X-WP-Split	B
 .washingtonpost.com	TRUE	/	FALSE	0	rpld1	20:usa|21:ca|22:santa rosa|23:38.451000|24:-122.761002|0:sonic.net|
+.google.com	TRUE	/	FALSE	1457823143	PREF	ID=fdd1f934ee850da2:U=8813474557f64b45:FF=0:TM=1394751067:LM=1394751143:S=TTc0XMogah_M3RbI
+#HttpOnly_.google.com	TRUE	/	FALSE	1410562267	NID	67=l0vV2bHVgMmLoV5dgROy5aLCqg_O7eh7G3D2jaFqXVH-MfquhwM55JSST-eKcmSXKwlu1FvJdIED81vwo3u9jC9_HZo3x1hQcMA2VDTaby9P_ooAkalGIKdrp0Apkru-
+#HttpOnly_.facebook.com	TRUE	/	FALSE	1457823415	datr	tzciU8t8ihAFbhr-QzxU0IGZ
+.facebook.com	TRUE	/	FALSE	0	reg_fb_gate	https%3A%2F%2Fwww.facebook.com%2Funsupportedbrowser
+.facebook.com	TRUE	/	FALSE	0	reg_fb_ref	https%3A%2F%2Fwww.facebook.com%2Funsupportedbrowser
+.facebook.com	TRUE	/	FALSE	1	reg_ext_ref	deleted

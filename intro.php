@@ -41,6 +41,7 @@ body{
 	Bitcoin Exchange bankruptcy? <a href="getgoodnews.php?s=http://www.reuters.com/article/2014/03/10/us-bitcoin-mtgox-bankruptcy-idUSBREA290WU20140310">No Problem.</a><br>
 	World famous economist talking trash? <a href="getgoodnews.php?s=http://www.cnbc.com/id/101479123">Everything's going to be fine.</a><br>
 	Got a clueless senator being a chump? <a href="getgoodnews.php?s=http://www.washingtonpost.com/blogs/the-switch/wp/2014/02/26/sen-joe-manchin-calls-for-a-bitcoin-ban-as-regulators-seek-accelerated-push/">Just relax.</a><br>
+	Some gigantic nation trying to make Bitcoin illegal? Don't worry... <a href="getgoodnews.php?s=http://www.foxnews.com/tech/2014/02/07/russia-bans-bitcoin/">This is actually GOOD NEWS!</a><br>
 	<br>
 	<b>...or just enter any fresh bad news you find in the box above to see it with Bitcoin-colored glasses</b>
 	<br>

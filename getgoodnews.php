@@ -22,16 +22,24 @@
 	// get reference domain for that site
 	$parsedURL = parse_url($url);
 	$path = $parsedURL['path'];
+	
 /*
 	$path = explode("/", $path);
 	$path = array_slice($path, 0, -1);
 	$path = implode("/", $path);
 */
+	if (is_null($parsedURL['scheme']))
+		$parsedURL['scheme'] = 'http';
+
+	if (is_null($parsedURL['host']))
+		$parsedURL['host'] = $path;
+
+
 	$actualHost = $parsedURL['scheme'] . "://" . $parsedURL['host'] . "/" ;
+
 
 	// add hostname to all reference links in the doc
 	$html = str_ireplace('<title>', '<base href="'. $actualHost .'" target="_blank"><title>', $html);
-
 	
 	// BAD NEWS CONVERTER!
 	$old = Array();
