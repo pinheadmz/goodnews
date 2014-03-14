@@ -14,3 +14,6 @@ www.weeklystandard.com	FALSE	/	FALSE	0	X-Mapping-oompknoc	CAB5E112778D30F2CF7674
 .facebook.com	TRUE	/	FALSE	0	reg_fb_gate	https%3A%2F%2Fwww.facebook.com%2Funsupportedbrowser
 .facebook.com	TRUE	/	FALSE	0	reg_fb_ref	https%3A%2F%2Fwww.facebook.com%2Funsupportedbrowser
 .facebook.com	TRUE	/	FALSE	1	reg_ext_ref	deleted
+.wsj.com	TRUE	/	FALSE	0	DJSESSION	country%3Dus%7C%7Ccontinent%3Dna%7C%7Cregion%3Dca%7C%7Ccity%3Dsanfrancisco%7C%7Clatitude%3D37.7795%7C%7Clongitude%3D-122.4195%7C%7Ctimezone%3Dpst%7C%7Czip%3D94102-94105%2B94107-94112%2B94114-94134%2B94137%2B94139-94147%2B94151%2B94153-94154%2B94156%2B94159-94164%2B94171-94172%2B94177%2B94188%7C%7CORCS%3Dna%2Cus
+.wsj.com	TRUE	/	FALSE	0	DJCOOKIE	ORC%3Dna%2Cus
+.wsj.com	TRUE	/	FALSE	0	wsjregion	na%2Cus
