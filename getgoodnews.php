@@ -1,7 +1,11 @@
 <?
 	// parameter from input url
-	$url = $_REQUEST['s'];
+	if (empty($_REQUEST['s']))
+                exit;
+        $url = $_REQUEST['s'];
 	
+
+
 	// get replacement dictionary
 	require_once('library.php');
 	
@@ -20,7 +24,7 @@
 
 
 	// get reference domain for that site
-	$parsedURL = parse_url($url);
+	$parsedURL = @parse_url($url);
 	$path = $parsedURL['path'];
 	
 /*

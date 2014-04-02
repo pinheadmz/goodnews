@@ -10,6 +10,8 @@
 ?>
 <!DOCTYPE html>
 <head>
+<meta name="viewport" content="width=1200px">
+
 <style type='text/css'>
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -33,7 +35,7 @@ time, mark, audio, video {
 
 }
 
-html{}
+html{height:100%}
 
 body{
 	height: 100%;
@@ -43,7 +45,7 @@ body{
 
 #header{
 	padding-top: 10px;
-	height: 110px;
+	height: 120px;
 	overflow: hidden;
 	border-bottom: 2px solid orange;
 	min-width: 1090px;
@@ -67,7 +69,7 @@ body{
 }
 
 #submit{
-	width: 100px;
+	width: 130px;
 	font-family: "Arial Narrow", Arial, sans-serif;
 	font-size: 20px;
 	border: 2px solid orange;
@@ -132,7 +134,7 @@ body{
 		</div>	
 		<div id="title">
 			<h1 id="title1">This is actually good news!</h1>
-				Enter bad news &#8594;&nbsp;<input type="text" id="input" value="<?= ($welcome ? '' : $url) ?>" onkeydown="if (event.keyCode == 13){opto();}"></input><br>
+				Enter bad news URL &#8594;&nbsp;<input type="text" id="input" value="<?= ($welcome ? '' : $url) ?>" onkeydown="if (event.keyCode == 13){opto();}"></input><br>
 				Click here &#8594;&nbsp;<div id="submit" onclick="opto()">Optimisticize!</div>
 		</div>
 		<div id="donate">		
@@ -144,6 +146,8 @@ body{
 <script type="text/javascript">
 	function opto(){
 		var url = document.getElementById('input').value;
+                if(!url)
+                        return false;
 		if (url.indexOf("http://") == -1)
 			url = "http://" + url;
 		document.getElementById('target').src = "getgoodnews.php?s=" + url;
@@ -156,5 +160,15 @@ body{
 	
 	<iframe id="target" src="<?= ($welcome ? 'intro.php' : 'getgoodnews.php?s=' . $url) ?>" width="100%" height="100%">
 	</iframe>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49018411-1', 'thisisactuallygoodnews.com');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>
